@@ -31,6 +31,16 @@ namespace CURSO // Note: actual namespace depends on the project name.
             Console.WriteLine(nome);
             Console.WriteLine(obj1);
             Console.WriteLine(obj2);
+
+            int mv1 = int.MinValue;
+            int mv2 = int.MaxValue;
+            sbyte mv3 = sbyte.MinValue;
+            decimal mv4 = decimal.MaxValue;
+            
+            Console.WriteLine(mv1);
+            Console.WriteLine(mv2);
+            Console.WriteLine(mv3);
+            Console.WriteLine(mv4);
            
             
 
